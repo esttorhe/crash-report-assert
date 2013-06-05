@@ -1,0 +1,3 @@
+[submodule "CrashReportAssert-Example/CrashReportAssert/ThirdParty/CocoaLumberJack"]
+	path = CrashReportAssert-Example/CrashReportAssert/ThirdParty/CocoaLumberJack
+	url = https://github.com/robbiehanson/CocoaLumberjack.git
