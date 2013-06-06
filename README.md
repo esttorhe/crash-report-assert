@@ -1,9 +1,9 @@
 crash-report-assert
 ===================
 <h2>Custom assertion</h2>
-Thanks to the article by Mike Ash (see legal at the bottom) I came to the realization that the provided assertions although good in principle lack a lot of potential.
+Thanks to the article by Mike Ash (see legal at the bottom) I came to the realization that the assertions provided by default although good in principle lack a lot of potential and decided that a better one could be done with some simple tweakings from the code in the article.<br />
 For this I created a "custom" assertion that also supports the use of CocoaLumberjack and has a "hack" to throw exceptions when the assertion fails (instead of just aborting).
-
+<br/><br/>
 The assertion has a couple of possible "configurations" explained below.
 
 <h2>Features supported</h2>
