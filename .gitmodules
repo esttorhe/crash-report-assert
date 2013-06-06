@@ -1,3 +1,6 @@
 [submodule "CrashReportAssert-Example/CrashReportAssert/ThirdParty/CocoaLumberJack"]
 	path = CrashReportAssert-Example/CrashReportAssert/ThirdParty/CocoaLumberJack
 	url = https://github.com/robbiehanson/CocoaLumberjack.git
+[submodule "CrashReportAssert-Example/CrashReportAssert/ThirdParty/FlurryAnalytics"]
+	path = CrashReportAssert-Example/CrashReportAssert/ThirdParty/FlurryAnalytics
+	url = https://github.com/iprox/FlurryAnalytics.git
