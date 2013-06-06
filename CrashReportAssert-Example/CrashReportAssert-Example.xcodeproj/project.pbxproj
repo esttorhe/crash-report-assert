@@ -341,7 +341,7 @@
 		1104CB82175FCE530099781C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Esteban Torres (XA8KF28AQP)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashReportAssert-Example/CrashReportAssert-Example-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -352,7 +352,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CrashReportAssert-Example/CrashReportAssert-Example-Info.plist";
 				PRODUCT_NAME = "CrashReportAssert-Example";
-				PROVISIONING_PROFILE = "D828238B-BDDC-4E58-993B-73086C493C13";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -360,12 +360,12 @@
 		1104CB83175FCE530099781C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Esteban Torres (XA8KF28AQP)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashReportAssert-Example/CrashReportAssert-Example-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CrashReportAssert-Example/CrashReportAssert-Example-Info.plist";
 				PRODUCT_NAME = "CrashReportAssert-Example";
-				PROVISIONING_PROFILE = "D828238B-BDDC-4E58-993B-73086C493C13";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
