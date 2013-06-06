@@ -32,8 +32,9 @@ static const int ddLogLevel = LOG_LEVEL_ERROR;
 
 /**
  ** If you define the PRE-PROCESSOR MACRO kSHOULD_THROW_EXCEPTION=1 this will cause the assertion to 
- ** throw an exception instead of calling the 'aborc()' method.
+ ** throw an exception instead of calling the 'abort()' method.
  ** We support this in the hopes of adding "custom" data to the crash report via crashing with a custom exception.
+ **     The "added data" shows in the CrashReport at least pointing the to line where the assertion was called 
  ** This custom exception contains the message "Assertion Failure - #expression"; reason: #expression and the user info is a dictionary that contains
  ** the File, Line, Function and the message (if one provided with the assert)
  **/
