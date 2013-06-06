@@ -13,7 +13,7 @@ The assertion has a couple of possible "configurations" explained below.
 			<li>In order to use it you need to set the PREPROCESSOR macro USE_LUMBERJACK=1 and configure the loggers for CocoaLumberjack (demo app does this)</li>
 		</ul>
 	</li>
-	<li>Assertion also supports a "hack" to make the assertion reach the CrashReport via a flag that will output the assert as an exception..</br >
+	<li>Assertion also supports a "hack" to make the assertion reach the CrashReport via a flag that will output the assert as an exception.<br />
 		<i><b> Note: The "extra" data will just appear in the CrashReport pointing to the line where the assertion was called.</b></i>
 		<ul>
 			<li>To do this specify the PREPROCESSOR macro kSHOULD_THROW_EXCEPTION=1 and this will make the assertion to build a "custom" exception with the following data:
