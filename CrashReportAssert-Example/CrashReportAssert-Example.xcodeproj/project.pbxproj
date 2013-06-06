@@ -348,7 +348,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 					"USE_LUMBERJACK=1",
-					"kSHOULD_THROW_EXCEPTION=0",
+					"kSHOULD_THROW_EXCEPTION=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CrashReportAssert-Example/CrashReportAssert-Example-Info.plist";
 				PRODUCT_NAME = "CrashReportAssert-Example";
