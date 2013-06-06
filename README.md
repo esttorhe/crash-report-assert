@@ -1,7 +1,10 @@
 crash-report-assert
 ===================
 <h2>Custom assertion</h2>
-Writes out to the Crash Report when supported (only on Mac) but added a "hack" to show up on the CrashReport when on iOS
+Thanks to the article by Mike Ash (see legal at the bottom) I came to the realization that the provided assertions although good in principle lack a lot of potential.
+For this I created a "custom" assertion that also supports the use of CocoaLumberjack and has a "hack" to throw exceptions when the assertion fails (instead of just aborting).
+
+The assertion has a couple of possible "configurations" explained below.
 
 <h2>Features supported</h2>
 <ul>
