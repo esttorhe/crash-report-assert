@@ -7,7 +7,10 @@
 //
 
 #import "ETAppDelegate.h"
+
+#ifdef USE_LUMBERJACK
 #import "DDFileLogger.h"
+#endif
 
 @implementation ETAppDelegate
 
@@ -17,8 +20,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-  
-// If we want to use Lumberjack for logging we set up and configure it
+    
+    // If we want to use Lumberjack for logging we set up and configure it
 #ifdef USE_LUMBERJACK
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
     [DDLog addLogger:[DDASLLogger sharedInstance]];
@@ -51,7 +54,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

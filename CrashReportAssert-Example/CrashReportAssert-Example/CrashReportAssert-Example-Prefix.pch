@@ -9,10 +9,14 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-    #import "ETAssert.h"
-    #import "DDLog.h"
-    #import "DDASLLogger.h"
-    #import "DDTTYLogger.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "ETAssert.h"
+
+#ifdef USE_LUMBERJACK
+#import "DDLog.h"
+#import "DDASLLogger.h"
+#import "DDTTYLogger.h"
+#endif
+
 #endif
